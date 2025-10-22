@@ -6,6 +6,7 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    
 }
 
 /* shared styles */
@@ -21,13 +22,21 @@
     background-color: #FD6E0A;
     border-radius: 5px;
     color: aliceblue;
+    border: none;
 }
 /* nav styles */
+header{
+
+    background-image: url('../images/developer.png') , url(../images/header_bg.png);
+   background-repeat: no-repeat;
+ background-position: top left , bottom right;
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+        margin: 0 200px;
+    
     
    
 }
@@ -47,4 +56,25 @@ nav li a{
 nav ul{
     display: flex;
     align-items: center;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+        margin: 0 200px;
+}
+.banner-wlc{
+    font-weight: 700;
+    font-size: 45px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 800;
+}
+.banner-image{
+    max-width: 584px;
+}
+.banner-content{
+    max-width: 585px;
 }
