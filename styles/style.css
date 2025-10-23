@@ -30,6 +30,7 @@ header{
     background-image: url('../images/developer.png') , url(../images/header_bg.png);
    background-repeat: no-repeat;
  background-position: top left , bottom right;
+ margin-bottom: 20px;
 }
 nav{
     display: flex;
@@ -63,6 +64,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
         margin: 0 200px;
+        
 }
 .banner-wlc{
     font-weight: 700;
@@ -77,4 +79,56 @@ nav ul{
 }
 .banner-content{
     max-width: 585px;
+}
+
+
+/* styles About */
+.about-main{
+   max-width: 827px;
+    border:2px solid green;
+   margin: auto;
+   padding:131 157 144 157 ;
+}
+.about-tittle{
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+}
+.name-discp{
+    display: flex;
+}
+
+/* dev-equbment */
+.dev-equbment{
+    display: flex;
+    max-width: 1140px;
+   
+    margin: auto;
+    margin-top: 25px;
+   
+   
+}
+.js-item{
+    max-width: 267px;
+    margin-right: 57px;
+    background-color: antiquewhite;
+    padding: 30px 33px;
+}
+.node-item{
+    max-width: 267px;
+     margin-right: 57px;
+     background-color: antiquewhite;
+     padding: 30px 33px;
+}
+.react-item{
+    max-width: 267px;
+     margin-right: 57px;
+     background-color: antiquewhite;
+     padding: 30px 33px;
+}
+.mongodb-item{
+    max-width: 267px;
+     margin-right: 57px;
+     background-color: antiquewhite;
+     padding: 30px 33px;
 }
